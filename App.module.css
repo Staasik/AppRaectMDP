@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex: 1;  
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+  .tap_bar{
+      background-color: black;
+  }
+  .bar{
+    display: flex;
+    flex: 1; 
+    height:70px;
+    background-color: black;
+  }
+  .svg {
+    height: 60px;
+    width: 60px;
+    fill: red;
+  }
