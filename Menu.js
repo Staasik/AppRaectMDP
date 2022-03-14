@@ -37,7 +37,7 @@ export default function Menu() {
     </ImageBackground> 
     </View>
     <View style={styles.answer}>
-
+    <Text style={styles.textProf}>Варианты ответов</Text>
 
     </View>
     <AppButton title="Начать"  />
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   },
   image:{     
     flex: 1,   
-    width:'95%', 
+    width:'100%', 
     height:'100%',
     flexDirection:'column',
     justifyContent:'flex-start',
