@@ -34,28 +34,28 @@ export default function Hi({navigation}) {
 
     return (
         <View style={styles.bar}>   
-        <ImageBackground source={require('../AppRaectMDP/src/images/hi_img.png')} style={styles.image}>
-        <Image
-        style={styles.Logo}
-        source={require('../AppRaectMDP/src/images/hi_icon.png')}/>
-        <Text style={styles.text_icon}>Poise</Text>
-        <Text style={styles.text}>Приложение для саморегуляции</Text>
-        <Image
-        style={styles.LogoIcon}
-        source={require('../AppRaectMDP/src/images/icon.svg')}/>
-        <TextInput
-        autoCapitalize="none"
-        maxLength={20}
-        keyboardType={"visible-password"}
-        style={styles.input}   
-        onChangeText={onChange}  
-        value={text}
-        placeholder="Введите имя" 
-        placeholderTextColor = "#FFFFFF"
-        
-      />
-        <AppButton title="Начать" onPress={loadScene} />
-        </ImageBackground>     
+          <ImageBackground source={require('../AppRaectMDP/src/images/hi_img.png')} style={styles.image}>
+              <Image
+              style={styles.Logo}
+              source={require('../AppRaectMDP/src/images/hi_icon.png')}/>
+              <Text style={styles.text_icon}>Poise</Text>
+              <Text style={styles.text}>Приложение для саморегуляции</Text>
+              <Image
+              style={styles.LogoIcon}
+              source={require('../AppRaectMDP/src/images/icon.svg')}/>
+              <TextInput
+              autoCapitalize="none"
+              maxLength={20}
+              keyboardType={"visible-password"}
+              style={styles.input}   
+              onChangeText={onChange}  
+              value={text}
+              placeholder="Введите имя" 
+              placeholderTextColor = "#FFFFFF"
+              
+            />
+              <AppButton title="Начать" onPress={loadScene} />
+          </ImageBackground>     
         </View>
     );
   }
@@ -66,7 +66,7 @@ export default function Hi({navigation}) {
       height:'100%',
       width:'100%',
       justifyContent: 'flex-start',
-      paddingTop:'30%',
+      paddingTop:'20%',
       alignItems:'center',
     },
     input:{
@@ -89,12 +89,12 @@ export default function Hi({navigation}) {
     Logo:{
       height:70,
       width:70, 
-      margin:15,
+      margin:10,
     },
     LogoIcon:{
       height:100,
       width:100, 
-      marginTop:50,
+      marginTop:'10%',
     },
     bar:{
       flex: 1,  
